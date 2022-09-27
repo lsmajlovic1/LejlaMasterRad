@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1qWyj3gjbyvB2-lBOhasDW6IybFX02sO2
 """
 
-import tensorflow as tf
-tf.test.gpu_device_name()
-
-!pip install wfdb
-
 import os
 import wfdb
 import numpy as np
